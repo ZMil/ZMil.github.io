@@ -1,1 +1,80 @@
-Hello World
+<!DOCTYPE html>
+
+<head>
+
+<title>Zachary Milrod</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="bower_components/angular/angular.js" ></script>
+<script src="bower_components/angular-route/angular-route.js" ></script>
+
+<script type="text/javascript" src="scripts/controller.js"></script>
+
+<!-- <script src="scripts/resumeController.js"></script> -->
+
+<script src="scripts/headerController.js"></script>
+
+<script type="text/javascript" src="scripts/navbarController.js"></script>
+
+</head>
+
+<body ng-app="webApp" ng-controller="mainController">
+
+	<!-- <angled-navbar affixed='top' inverse='true' menus='menus' navfn='navfn(action)'></angled-navbar> -->
+
+	<!-- <button id="hidNav" ng-click="toggle();" ng-show = "!buttonPressed">PRESS ME</button> -->
+
+	
+	<nav id="nav" ng-controller="navbarController">
+
+		<ul ng-hide="!buttonPressed">
+
+			<li><a href="#">HOME</a></li>
+			<li><a href="#/resume">RESUME</a></li>
+			<li><a href="#/projects">PROJECTS</a></li>
+			<li><a ng-click=""href="#/contact">CONTACT ME</a></li>
+			<span id="navButt"><button class = "navButtons" id="buttWNav" ng-click="toggle();" ng-hide="!buttonPressed"><img src="x.png"> </button></span>
+
+		</ul>
+
+
+		<button class = "navButtons" id="buttonWONav" ng-click="toggle();" ng-hide="buttonPressed"><img src="navbarButtoncopy.png"></button>
+
+
+	</nav>
+
+	
+
+	<!-- <span id="before"> <button id="buttonNav" ng-click="toggle();">PRESS ME</button></span> -->
+
+	<div id="background">
+
+	<p id="name"><span id="f">Z</span> <span id="f">A</span> <span id="f">C</span> <span id="f">H</span> <span id="f">A</span> <span id="f">R</span> <span id="f">Y</span> <span id="l">M</span> <span id="l">I</span> <span id="l">L</span> <span id="l">R</span> <span id="l">O</span> <span id="l">D</span></p>
+
+	</div>
+
+	<div ng-view> 
+	</div>
+
+	
+	<div id="links">
+
+		<span id="link">
+			<a href="http://twitter.com/ZMilrod"><img src="twitter.png">@ZMilrod</a>
+		</span>
+
+		<span id="link">
+			<a href="http://github.com/ZMil"><img src="github-mark.png"> ZMil</a>
+		</span>
+
+		<span id="link">
+			<img src="gmail.jpg"> ZMilrod@gmail.com
+		</span>
+
+		
+	</div>
+
+</body>
+
+</html>

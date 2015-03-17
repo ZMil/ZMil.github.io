@@ -1,0 +1,307 @@
+body {
+
+	/*background-color: #000000;	*/
+
+}
+
+#numbas{
+	font-size: 500px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 100px;
+}
+
+#f{
+	font-style: italic;
+}
+
+#l{
+	font-weight: bolder;
+}
+
+#name {
+	font-size: 8.4vw;
+	text-align: justify;
+	/*background-color: #70AA70;*/
+	background-image: url("IMG_5100.jpg");
+	/*padding-top: 40px;*/
+	/*padding-bottom: 40px;*/
+	/*background-image: 'mountain.jpg';*/
+	box-shadow: 5px 5px 5px #888888;
+	padding-left: 0.2%;	
+}
+
+#before {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+p {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#nav ul li {
+	display: inline;
+}
+
+li{
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 2vw;
+	padding-left: 10%;
+	/*color: black;*/
+
+}
+
+
+nav {
+	/*padding-top: -20px;*/
+	background-color: rgba( 224, 226, 239, 0.7);
+	/*background-color: #e0e2ef;*/
+	/*position: fixed;*/
+	position: fixed;
+	width: 100%;
+	top:0;
+	left: 0;
+	/*opacity: 0.7;*/
+}
+
+a{
+	text-decoration: none;
+	/*color: #006600;*/
+	color: #5C7A99;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:active{
+	background-color: #bdc3c7; 
+}
+
+#title {
+	text-align: left;
+	text-decoration: underline;
+	font-weight: bold;
+	
+}
+
+#resume{
+	/*background-color: #70AA70;*/
+	background-color: rgba( 112, 170, 112, 0.7);
+	/*text-align: center;*/
+	font-size: 24px;
+	/*font-size: 4vw;*/
+	margin: 2%;
+	padding: 1%;
+}
+
+
+.navButtons {
+	background-color: #70AA70;
+	border: none;
+	padding-top: 2.5px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#buttonWONav{
+	position: fixed;
+	top: 0;
+	right: 0;
+	box-shadow: 1px 2px 5px #888888;
+}
+
+#buttonWNav{
+	/*top: 0;
+	right: 0;*/
+	right: 0;
+	top: 0;
+}
+
+#contact, #projects {
+	/*background-color: #70AA70;*/
+	/*background-color: rgba(112, 170, 112, 0.8);*/
+	margin: 2%;
+	padding-bottom: 4%;
+}
+
+#contact {
+	background-color: #70AA70;
+}
+
+#cHead{
+	/*float: center;*/
+	font-size: 40px;
+	font-weight: bold;
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+	
+	text-align: center;
+}
+
+
+#iname, #email{
+	font-size: 2.5vw;
+	/*text-align: center;*/
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	width: 47%;
+	/*background-color: #bdc3c7;*/
+	border: none;
+}
+
+#email {
+	float: right;
+	margin-right: 2.5%;
+}
+
+#iname{
+	margin-left: 2.5%;
+}
+
+#message {
+	font-size: 24px;
+	width: 94.5%;
+	height: 50vh;
+	/*background-color: #bdc3c7;*/
+	/*margin-right: 2.5%;*/
+	margin-left: 2.5%;
+	border: none;
+}
+
+#cButton {
+	/*width: 5vw;
+	height: 1vh;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 50%;*/
+
+	width: 15%;
+	height: 25px;
+	/*background-color: #CCFFFF;*/
+	background-color: white;
+	border: none;
+	/*border-radius: 10%;*/
+}
+
+#butt, #pHead{
+	text-align: center;
+}
+
+#pHead{
+	font-weight: bold;
+	font-size: 4vw;
+	/*text-align: left;*/
+	margin-left: 6.5%;
+	float: left;
+	margin-top: 15%;
+	/*float: left;*/
+}
+
+ #pBod{
+ 	position: relative;
+	margin-left: 6.5%;
+	float: left;
+	margin-top: 5%;
+	text-align: center;
+	font-size: 1.3vw;
+	/*float: left;*/
+ 	/*padding-left: 2%;*/
+ 	/*float: right;*/
+ }
+
+ #navButt{
+ 	float: right;
+ 	margin-top: -1.35%;
+ 	margin-right: 1.5%;
+ }
+
+ #links{
+ 	/*display:  block;*/
+ 	text-align: center;
+ 	/*padding-top: 100%;*/
+ 	/*padding-bottom: 5%;*/
+ 	padding-bottom: 5%;
+ 	color: #5C7A99;
+ 	padding-right: auto;
+ 	padding-left: auto;
+ 	bottom:0;
+ 	clear: both;
+
+ }
+
+ #link{
+ 	margin: 3%;
+ }
+
+ #pIms{
+ 	width: 35%;
+ 	height: auto;
+ 	/*float: right;*/
+ }
+
+ .pIms2{
+ 	/*margin-right: 7.4%;*/
+ 	margin-left: 7.4%;
+ }
+ .pIms3{
+ 	margin-left: 16.5%;
+ 	/*margin-right: 5.5%;*/
+ }
+
+ #pIms1{
+ 	float: right;
+ 	margin-right: 5.5%;
+ 	width: 35%;
+ 	height: auto;
+ 	/*float: right;*/
+
+ }
+
+ #projects{
+ 	/*display: inline;*/
+ 	/*height: %;*/
+ 	background-color: rgba(255, 153, 0, 0.8);
+ }
+
+ #top{
+ 	display: inline;
+ 	position: relative;
+ 	/*background-color: orange;*/
+ 	/*clear:both;*/
+
+ }
+
+ #bottom{
+ 	clear: both;
+ 	display: block;
+ }
+
+
+#gHead{
+ font-family: Verdana;
+ text-align: center;
+ font-size: 3.5vw;
+}
+
+#gProjects{
+	/*display: inline;*/
+ 	/*position: relative;*/
+}
+
+#poster{
+	/*position: relative;*/
+	/*float: right;*/
+ 	/*margin-right: 5.5%;*/
+ 	width: 50%;
+ 	height: auto;
+}
+
+#poster:hover{
+	background-color: rgba(255, 153, 0, 0.8);
+}
