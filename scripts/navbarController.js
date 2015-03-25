@@ -26,8 +26,22 @@ app.controller('navbarController', function($scope){
 		$scope.buttonPressed = !$scope.buttonPressed;
 	}
 
+	// $scope.isProjectPage = false;
+
 });
 
+// app.service('sharedProperties', function () {
+//         var isProjectPage = false;
+
+//         return {
+//             getProperty: function () {
+//                 return isProjectPage;
+//             },
+//             setProperty: function(value) {
+//                 isProjectPage = value;
+//             }
+//    }
+//    });
 
 app.config(["$routeProvider", function($routeProvider){
 
@@ -54,28 +68,30 @@ app.config(["$routeProvider", function($routeProvider){
 
 
 app.controller('mainController', function($scope) {
+
+	$scope.isProjectPage = false;
+	console.log($scope.isProjectPage);
 	
 });
 
 app.controller('resumeController', function($scope) {
 
+	$scope.isProjectPage = false;
+	console.log($scope.isProjectPage);
+
 });
 
 app.controller('projectsController', function($scope) {
+
+	$scope.isProjectPage = true;
+	console.log($scope.isProjectPage);
 	
 });
 
 app.controller('contactController', function($scope) {
+
+	$scope.isProjectPage = true;
+	console.log($scope.isProjectPage);
 	
 });
-
-
-
-
-
-
-
-
-
-
 

@@ -26,9 +26,38 @@
 
 
 	<div>
-		<img id="poster" src="poster.jpg">
-		<img id="may" src="may.jpg">
-		<img id="ad" src="ad.jpg">
+
+		<div id="posterDiv" ng-mouseenter="hover1 = true" ng-mouseleave="hover1 = false">
+			<img id="poster" src="poster.jpg">
+	     	<div class = "posterText"ng-class="{hovering: hover1, hovering1: hover1}">
+	     		<div>
+	     			Designed and created a realistic movie poster for a <a href="https://www.youtube.com/watch?v=6QLAzbNbjuo">short film</a>
+	     		</div>
+	     	</div>	 
+	     </div>	
+
+	     <div id="mayAd">
+		    <div id="mayDiv" ng-mouseenter="hover2 = true" ng-mouseleave="hover2 = false"> 	 
+				<img id="may" src="may.jpg">
+				<div class = "posterText" ng-class="{hovering: hover2, hovering2: hover2}">
+		     		<div>
+		     			Designed and created shirts to raise awareness of Testicular Cancer with the event Mutton Chop May. All profits went to research for Testicular Cancer
+		     		</div>
+		     	</div>	 
+			</div>
+
+			<div id="adDiv" ng-mouseenter="hover3 = true" ng-mouseleave="hover3 = false">
+				<img id="ad" src="ad.jpg">
+				<div class = "posterText" ng-class="{hovering: hover3, hovering3: hover3}">
+		     		<div>
+		     			Designed and created ad that ran in a local newspaper that raised awareness of Breast Cancer
+		     		</div>
+		     	</div>	 
+			</div>
+		</div>
+
 	</div>
+
+	<div id = "bottom">MMMMMMMewhewywerhsge</div>
 
 </div>
