@@ -1,8 +1,8 @@
-var app = angular.module('webApp', ['ngRoute']);
+var app = angular.module('webApp', ['ngRoute', 'ngAnimate']);
 
-app.controller('mainController', function($scope){
+// app.controller('mainController', function($scope){
 	
-});
+// });
 
 // app.controller("navbarController", function($scope){
 // 	$scope.menus = [

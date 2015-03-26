@@ -26,8 +26,6 @@ app.controller('navbarController', function($scope){
 		$scope.buttonPressed = !$scope.buttonPressed;
 	}
 
-	// $scope.isProjectPage = false;
-
 });
 
 // app.service('sharedProperties', function () {
@@ -69,29 +67,42 @@ app.config(["$routeProvider", function($routeProvider){
 
 app.controller('mainController', function($scope) {
 
-	$scope.isProjectPage = false;
-	console.log($scope.isProjectPage);
+	$scope.isHome = false;
+
+	$scope.toggleHome = function(){
+		$scope.isHome = !$scope.isHome;
+	}
+
+	$scope.page = "home";
+
+	$scope.pageChange = function(val){
+		$scope.page = val;
+	}
+	// console.log($scope.isProjectPage);
 	
 });
 
 app.controller('resumeController', function($scope) {
 
 	$scope.isProjectPage = false;
-	console.log($scope.isProjectPage);
+	$scope.title = "RESUME";
+	// console.log($scope.isProjectPage);
 
 });
 
 app.controller('projectsController', function($scope) {
 
 	$scope.isProjectPage = true;
-	console.log($scope.isProjectPage);
+	$scope.title = "PROJECTS";
+	// console.log($scope.isProjectPage);
 	
 });
 
 app.controller('contactController', function($scope) {
 
 	$scope.isProjectPage = true;
-	console.log($scope.isProjectPage);
+	$scope.title = "CONTACT ME";
+	// console.log($scope.isProjectPage);
 	
 });
 

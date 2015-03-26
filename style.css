@@ -23,12 +23,30 @@ body {
 	font-size: 8.4vw;
 	text-align: justify;
 	/*background-color: #70AA70;*/
-	background-image: url("IMG_5100.jpg");
+	/*background-image: url("IMG_5100.jpg");*/
 	/*padding-top: 40px;*/
 	/*padding-bottom: 40px;*/
 	/*background-image: 'mountain.jpg';*/
 	/*box-shadow: 5px 5px 5px #888888;*/
 	padding-left: 0.2%;	
+	/*padding-top: 30px;
+	padding-bottom: 30px;*/
+}
+
+#background{
+	/*margin-top: 6.3%;*/
+	margin-top: 52.5px;
+	margin-bottom: 6%;
+	/*padding-top: 30px;
+	padding-bottom: 30px;*/
+	background-image: url("IMG_5100.jpg");
+
+	position:relative;
+  /*background:white;*/
+  /*border:1px solid black;*/
+  	/*height: 300px;*/
+  	height: 55vh;
+  	overflow:hidden;
 }
 
 #before {
@@ -36,10 +54,10 @@ body {
 	padding-bottom: 10px;
 }
 
-p {
+/*p {
 	padding-top: 30px;
 	padding-bottom: 30px;
-}
+}*/
 
 #nav ul li {
 	display: inline;
@@ -49,13 +67,17 @@ li{
 	font-family: verdana;
 	font-weight: bold;
 	font-size: 2vw;
-	padding-left: 10%;
 	/*color: black;*/
 
 }
 
+#middleLIs{
+	/*padding-right: 20%;*/
+	padding-left: 15%;
+}
 
-nav {
+
+#nav {
 	/*padding-top: -20px;*/
 	background-color: rgba( 224, 226, 239, 0.7);
 	/*background-color: #e0e2ef;*/
@@ -65,6 +87,7 @@ nav {
 	top:0;
 	left: 0;
 	z-index: 1;
+
 	/*opacity: 0.7;*/
 }
 
@@ -228,14 +251,14 @@ a:active{
  #links{
  	/*display:  block;*/
  	text-align: center;
- 	/*padding-top: 100%;*/
+ 	/*padding-top: 5%;*/
  	/*padding-bottom: 5%;*/
- 	padding-bottom: 5%;
- 	color: #5C7A99;
- 	padding-right: auto;
- 	padding-left: auto;
- 	bottom:0;
- 	clear: both;
+ 	padding-bottom: 2.5%;
+ 	/*color: #5C7A99;*/
+ 	/*padding-right: auto;*/
+ 	/*padding-left: auto;*/
+ 	/*bottom:0;*/
+ 	/*clear: both;*/ 	
  }
 
  #link{
@@ -398,9 +421,72 @@ a:active{
 }
 
 .projectLinks{
-	background-color: blue;
+	margin-top: 80%;
+}
+
+.projectNav{
+	background-color: rgba( 112, 170, 112, 0.3);
+	padding: 1%;
+}
+
+.resumeTitle{
+	font-size: 8.4vw;
+	text-align: center;
+	/*background-image: url("IMG_5100.jpg");*/
+	/*padding-top: 25px;
+	padding-bottom: 25px;
+*/
+}
+
+#rlet{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+	padding-left: 1%;
+	font-weight: 600;
+}
+
+.homeLinks{
+	margin-top: 5%;
+}
+
+.animate-switch {
+ 	
 }
 
 
+.animate-switch.ng-animate {
+  /*-webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;*/
 
+  -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s;
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s;
+
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+
+.animate-switch.ng-leave.ng-leave-active,
+.animate-switch.ng-enter {
+  top:-100%;
+}
+.animate-switch.ng-leave,
+.animate-switch.ng-enter.ng-enter-active {
+  top:0;
+}
+
+/*.animate-switch.ng-leave, .animate-switch.ng-enter.ng-enter-active{
+	-webkit-animation: fadeOut 1s;
+	-moz-animation: fadeOut 1s;
+	-o-animation: fadeOut 1s;
+	animation: fadeOut 1s;
+}
+
+.animate-switch.ng-enter, .animate-switch.ng-leave.ng-leave-active{
+	-webkit-animation: fadeIn 2s;
+	-moz-animation: fadeIn 2s;
+	-o-animation: fadeIn 2s;
+	animation: fadeIn 2s;
+}*/
 

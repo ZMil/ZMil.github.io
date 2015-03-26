@@ -8,6 +8,7 @@
 
 <script src="bower_components/angular/angular.js" ></script>
 <script src="bower_components/angular-route/angular-route.js" ></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
 
 <script type="text/javascript" src="scripts/controller.js"></script>
 
@@ -30,10 +31,22 @@
 
 		<ul ng-hide="!buttonPressed">
 
-			<li><a href="#">HOME</a></li>
-			<li><a href="#/resume">RESUME</a></li>
-			<li><a href="#/projects">PROJECTS</a></li>
-			<li><a ng-click=""href="#/contact">CONTACT ME</a></li>
+			<li><a href="#" 
+				   ng-class="{projectNav : page == 'home'}"
+				   ng-click="pageChange('home');">HOME</a></li>
+
+			<li id="middleLIs"><a href="#/resume"
+				   ng-class="{projectNav : page == 'resume'}"
+				   ng-click="pageChange('resume');">RESUME</a></li>
+
+			<li id="middleLIs"><a ng-click="pageChange('project');" 
+				   href="#/projects" 
+				   ng-class="{projectNav : page == 'project'}">PROJECTS</a></li>
+
+			<li id="middleLIs"><a ng-class="{projectNav : page == 'contact'}"
+				   href="#/contact"
+				   ng-click="pageChange('contact');">CONTACT ME</a></li>
+
 			<span id="navButt"><button class = "navButtons" id="buttWNav" ng-click="toggle();" ng-hide="!buttonPressed"><img src="x.png"> </button></span>
 
 		</ul>
@@ -48,9 +61,38 @@
 
 	<!-- <span id="before"> <button id="buttonNav" ng-click="toggle();">PRESS ME</button></span> -->
 
-	<div id="background">
+	<div id="background" ng-switch on="page">
 
-	<p id="name"><span id="f">Z</span> <span id="f">A</span> <span id="f">C</span> <span id="f">H</span> <span id="f">A</span> <span id="f">R</span> <span id="f">Y</span> <span id="l">M</span> <span id="l">I</span> <span id="l">L</span> <span id="l">R</span> <span id="l">O</span> <span id="l">D</span></p>
+	<p class = "animate-switch" ng-switch-default 
+	id="name" ng-hide="page != 'home'">
+
+	<span id="f">Z</span> <span id="f">A</span> <span id="f">C</span> <span id="f">H</span> <span id="f">A</span> <span id="f">R</span> <span id="f">Y</span> <span id="l">M</span> <span id="l">I</span> <span id="l">L</span> <span id="l">R</span> <span id="l">O</span> <span id="l">D</span>
+
+	</p>
+
+	<p class = "animate-switch" ng-switch-when="resume" 
+	ng-class="{resumeTitle: page == 'resume'}" ng-controller="resumeController" 
+	ng-hide="page != 'resume'">
+
+	<span id="rlet">R</span><span id="rlet">E</span><span id="rlet">S</span><span id="rlet">U</span><span id="rlet">M</span><span id="rlet">E</span>
+
+	</p>
+
+	<p class = "animate-switch" ng-switch-when="project" 
+	ng-class="{resumeTitle: page == 'project'}" ng-controller="projectsController" 
+	ng-hide="page != 'project'">
+
+	<span id="rlet">P</span><span id="rlet">R</span><span id="rlet">O</span><span id="rlet">J</span><span id="rlet">E</span><span id="rlet">C</span><span id="rlet">T</span><span id="rlet">S</span>
+
+	</p>
+
+	<p class = "animate-switch" ng-switch-when="contact" 
+	ng-class="{resumeTitle: page == 'contact'}" ng-controller="contactController" 
+	ng-hide="page != 'contact' ">
+
+	<span id="rlet">C</span><span id="rlet">O</span><span id="rlet">N</span><span id="rlet">T</span><span id="rlet">A</span><span id="rlet">C</span><span id="rlet">T</span> <span id="rlet">M</span><span id="rlet">E</span>
+
+	</p>
 
 	</div>
 
@@ -58,7 +100,7 @@
 	</div>
 
 	
-	<div id="links" ng-class="{projectLinks: isProjectPage}">
+	<div id="links" ng-class="{projectLinks: page == 'project', homeLinks: page == 'home'}">
 
 		<span id="link">
 			<a href="http://twitter.com/ZMilrod"><img src="twitter.png">@ZMilrod</a>
