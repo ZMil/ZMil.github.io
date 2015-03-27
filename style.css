@@ -28,7 +28,7 @@ body {
 	/*padding-bottom: 40px;*/
 	/*background-image: 'mountain.jpg';*/
 	/*box-shadow: 5px 5px 5px #888888;*/
-	padding-left: 0.2%;	
+	/*padding-left: 0%;	*/
 	/*padding-top: 30px;
 	padding-bottom: 30px;*/
 	vertical-align: middle;
@@ -232,7 +232,7 @@ a:active{
 	font-weight: bold;
 	font-size: 4vw;
 	/*text-align: left;*/
-	margin-left: 1%;
+	margin-left: 2.5%;
 	float: left;
 	margin-top: 15%;
 	/*float: left;*/
@@ -240,7 +240,7 @@ a:active{
 
  #pBod{
  	position: relative;
-	margin-left: 3%;
+	margin-left: 5%;
 	float: left;
 	margin-top: 5%;
 	text-align: center;
@@ -284,7 +284,7 @@ a:active{
 
  #pIms1{
  	float: right;
- 	margin-right: 5.5%;
+ 	margin-right: 2.5%;
  	width: 35%;
  	height: auto;
  	/*float: right;*/
@@ -321,6 +321,7 @@ a:active{
 #gProjects{
 	/*display: inline;*/
  	/*position: relative;*/
+ 	/*background-color: rgba(255, 153, 0, 0.8);*/
 }
 
 /*#ad{
@@ -355,6 +356,7 @@ a:active{
 	margin-right: 2.5%;
 	margin-left: 2.5%;
 	height: auto;
+	/*background-color: rgba(255, 153, 0, 0.8);*/
 }
 
 #mayDiv{
@@ -372,6 +374,7 @@ a:active{
  	/*top: 50%;*/
  	margin-top: 70%;
  	position: absolute;
+ 	/*background-color: rgba(255, 153, 0, 0.8);*/
 }
 
 .posterText{
@@ -497,4 +500,32 @@ a:active{
 	-o-animation: fadeIn 2s;
 	animation: fadeIn 2s;
 }*/
+
+#web{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+
+#webHead{
+	text-align: center;
+	font-size: 5vw;
+}
+
+#webBody{
+	text-align: center;
+	font-size: 2.5vw;
+}
+
+#angularImg{
+	/*float: right;*/
+	margin-left: 25%;
+	width: 35%;
+}
+
+#htmlImg{
+	width: 15%;
+
+}
+
+
+
 
