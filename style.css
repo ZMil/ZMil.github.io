@@ -12,7 +12,7 @@ body {
 }
 
 #f{
-	font-style: italic;
+	/*font-style: italic;*/
 }
 
 #l{
@@ -20,7 +20,7 @@ body {
 }
 
 #name {
-	font-size: 8.4vw;
+	font-size: 8.0vw;
 	text-align: justify;
 	/*background-color: #70AA70;*/
 	/*background-image: url("IMG_5100.jpg");*/
@@ -315,7 +315,7 @@ a:active{
 #gHead{
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
  text-align: center;
- font-size: 3.5vw;
+ font-size: 5vw;
 }
 
 #gProjects{
