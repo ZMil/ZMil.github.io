@@ -230,11 +230,11 @@ a:active{
 
 #pHead{
 	font-weight: bold;
-	font-size: 4vw;
+	font-size: 3.65vw;
 	/*text-align: left;*/
 	margin-left: 2.5%;
 	float: left;
-	margin-top: 15%;
+	margin-top: 22.5%;
 	/*float: left;*/
 }
 
@@ -244,7 +244,7 @@ a:active{
 	float: left;
 	margin-top: 5%;
 	text-align: center;
-	font-size: 1.4vw;
+	font-size: 1.05vw;
 	/*float: left;*/
  	/*padding-left: 2%;*/
  	/*float: right;*/
@@ -300,7 +300,7 @@ a:active{
  #top{
  	display: inline;
  	position: relative;
- 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+ 	font-family: moon;
  	/*background-color: orange;*/
  	/*clear:both;*/
 
@@ -313,9 +313,10 @@ a:active{
 
 
 #gHead{
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+ font-family: moon;
  text-align: center;
  font-size: 5vw;
+ font-weight: bold;
 }
 
 #gProjects{
@@ -400,29 +401,29 @@ a:active{
 	/*height: auto;*/
 	right: 0;
 	text-align: center;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+	font-family: moon;
 }
 
 .hovering1{
-	margin-top: 40%;
+	margin-top: 38.5%;
 	padding-top: 15%;
 	padding-bottom: 15%;
-	font-size: 6vw;
+	font-size: 5vw;
 }
 
 .hovering2{
-	margin-top: 7.5%;
+	margin-top: 12.5%;
 	padding-top: 7.5%;
 	padding-bottom: 7.5%;
-	font-size: 3vw;
+	font-size: 2.5vw;
 	opacity: .85;
 }
 
 .hovering3{
-	margin-top: 7.5%;
+	margin-top: 14%;
 	padding-top: 7.5%;
 	padding-bottom: 7.5%;
-	font-size: 4vw;
+	font-size: 3vw;
 	opacity: .8;
 }
 
@@ -450,9 +451,10 @@ a:active{
 }
 
 #rlet{
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
-	padding-left: 1%;
-	font-weight: 600;
+	font-family: moon;
+	padding-left: 2%;
+	/*font-weight: 600;*/
+	font-weight: bold;
 }
 
 .homeLinks{
@@ -502,7 +504,7 @@ a:active{
 }*/
 
 #web{
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+	font-family: moon;
 }
 
 #webHead{
@@ -512,7 +514,7 @@ a:active{
 
 #webBody{
 	text-align: center;
-	font-size: 2.5vw;
+	font-size: 2vw;
 }
 
 #angularImg{
@@ -526,6 +528,15 @@ a:active{
 
 }
 
+@font-face {
+    font-family: moon;
+    src: url(MoonTypeFace/MoonLight.otf);
+}
 
+@font-face {
+    font-family: moonBold;
+    src: url(MoonTypeFace/MoonBold.otf);
+    font-weight: bold;
+}
 
 
