@@ -530,12 +530,12 @@ a:active{
 
 @font-face {
     font-family: moon;
-    src: url(MoonTypeFace/MoonLight.otf);
+    src: url(MoonTypeface/MoonLight.otf);
 }
 
 @font-face {
     font-family: moonBold;
-    src: url(MoonTypeFace/MoonBold.otf);
+    src: url(MoonTypeface/MoonBold.otf);
     font-weight: bold;
 }
 
