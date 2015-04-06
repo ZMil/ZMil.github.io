@@ -36,7 +36,7 @@ body {
 
 #background{
 	/*margin-top: 6.3%;*/
-	margin-top: 52.5px;
+	margin-top: 6%;
 	margin-bottom: 6%;
 	/*padding-top: 30px;
 	padding-bottom: 30px;*/
@@ -230,21 +230,25 @@ a:active{
 
 #pHead{
 	font-weight: bold;
+	font-family: moon;
+	/*text-align: right;*/
 	font-size: 3.65vw;
 	/*text-align: left;*/
-	margin-left: 2.5%;
+	margin-left: 4%;
 	float: left;
-	margin-top: 22.5%;
+	margin-top: 15%;
 	/*float: left;*/
 }
 
  #pBod{
  	position: relative;
-	margin-left: 5%;
+	margin-left: 10.5%;
 	float: left;
 	margin-top: 5%;
 	text-align: center;
-	font-size: 1.05vw;
+	font-size: 2vw;
+	font-family: 'Oswald', serif;
+	font-weight: 400;
 	/*float: left;*/
  	/*padding-left: 2%;*/
  	/*float: right;*/
@@ -300,8 +304,7 @@ a:active{
  #top{
  	display: inline;
  	position: relative;
- 	font-family: moon;
- 	/*background-color: orange;*/
+  	/*background-color: orange;*/
  	/*clear:both;*/
 
  }
@@ -444,17 +447,22 @@ a:active{
 .resumeTitle{
 	font-size: 8.4vw;
 	text-align: center;
+	margin-top: 7%;
 	/*background-image: url("IMG_5100.jpg");*/
 	/*padding-top: 25px;
 	padding-bottom: 25px;
 */
 }
 
-#rlet{
-	font-family: moon;
-	padding-left: 2%;
+#rlet, #let{
+	font-family: 'Bitter';
+	font-weight: 700;
 	/*font-weight: 600;*/
-	font-weight: bold;
+	/*font-weight: 900;*/
+}
+
+#rlet{
+	padding-left: 2.5%;
 }
 
 .homeLinks{
@@ -462,7 +470,7 @@ a:active{
 }
 
 .animate-switch {
- 	
+ 
 }
 
 
@@ -515,12 +523,14 @@ a:active{
 #webBody{
 	text-align: center;
 	font-size: 2vw;
+	font-family: 'Oswald', serif;
 }
 
 #angularImg{
 	/*float: right;*/
 	margin-left: 25%;
 	width: 35%;
+	margin-bottom: 2.5%;
 }
 
 #htmlImg{
@@ -530,12 +540,12 @@ a:active{
 
 @font-face {
     font-family: moon;
-    src: url(MoonTypeFace/MoonLight.otf);
+    src: url(MoonTypeface/MoonLight.otf);
 }
 
 @font-face {
     font-family: moonBold;
-    src: url(MoonTypeFace/MoonBold.otf);
+    src: url(MoonTypeface/MoonBold.otf);
     font-weight: bold;
 }
 
