@@ -13,15 +13,23 @@ body {
 
 #f{
 	/*font-style: italic;*/
+	/*position: relative;*/
+	letter-spacing: 7.5px;
 }
+
+
 
 #l{
 	font-weight: bolder;
+	/*position: relative;*/
+	letter-spacing: 7.5px;
 }
 
 #name {
-	font-size: 8.0vw;
-	text-align: justify;
+	margin-top: 7%;
+	font-size: 11vw;
+	text-align: center;
+	font-family: Oswald;
 	/*background-color: #70AA70;*/
 	/*background-image: url("IMG_5100.jpg");*/
 	/*padding-top: 40px;*/
@@ -31,23 +39,23 @@ body {
 	/*padding-left: 0%;	*/
 	/*padding-top: 30px;
 	padding-bottom: 30px;*/
-	vertical-align: middle;
+	/*vertical-align: middle;*/
 }
 
 #background{
-	/*margin-top: 6.3%;*/
-	margin-top: 6%;
+	margin-top: 6.3%;
+	/*margin-top: 6%;*/
 	margin-bottom: 6%;
 	/*padding-top: 30px;
 	padding-bottom: 30px;*/
-	background-image: url("IMG_5100.jpg");
-
+	/*background-image: url("IMG_5100.jpg");*/
+	background-image: url("fallmountain.jpg");
 	position:relative;
   /*background:white;*/
   /*border:1px solid black;*/
   	/*height: 300px;*/
   	/*height: 300px;*/
-  	height: 25vw;
+  	height: 30vw;
   	overflow:hidden;
 }
 
@@ -108,9 +116,11 @@ a:active{
 }
 
 #title {
-	text-align: left;
-	text-decoration: underline;
+	text-align: center;
+	/*text-decoration: underline;*/
 	font-weight: bold;
+	font-size: 50px;
+	font-family: Oswald;
 	
 }
 
@@ -446,9 +456,10 @@ a:active{
 }
 
 .resumeTitle{
-	font-size: 8.4vw;
+	/*font-size: 100px;*/
+	font-size: 11.75vw;
 	text-align: center;
-	margin-top: 7%;
+	margin-top: 6.5%;
 	/*background-image: url("IMG_5100.jpg");*/
 	/*padding-top: 25px;
 	padding-bottom: 25px;
@@ -548,6 +559,38 @@ a:active{
     font-family: moonBold;
     src: url(MoonTypeface/MoonBold.otf);
     font-weight: bold;
+}
+
+#resBod{
+	text-align: center;
+	font-family: Lora;
+}
+
+#resItem{
+	margin-top: 1%;
+	font-size: 20px;
+}
+
+#lHead{
+	font-family: Oswald;
+	font-size: 75px;
+	text-align: center;
+}
+
+#lBod{
+	font-family: Lora;
+	text-align: center;
+	font-size: 20px;
+}
+
+#lrcImg1, #lrcImg2{
+	width: 550px;
+	margin-left: 2%;
+	/*margin-right: 5%;*/
+}
+
+#lrcSpan{
+	text-align: justify;
 }
 
 
